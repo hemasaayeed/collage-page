@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center;
+    height: 100vh;
+    background: url('images.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 100px; /* Move it down */
+}
+
+.img img {
+    width: 150px; /* Adjust size */
+    height: auto;
+}
+
+.text {
+    color: #333; /* Change text color */
+    font-size: 18px; /* Change font size */
+    font-weight: bold; /* Make text bold */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Add padding */
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color with transparency */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: 20px; /* Add space between the text and the container */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    width: 350px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+p.error {
+    color: red;
+}
